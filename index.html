@@ -3,27 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Pickle Pals</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="sidebar">This is the sidebar</div>
-    <img src="images/background-pickle.png" alt="">
+  <div class="sidebar">
+    <img src="images/background-pickle.png" alt="" id="picklePic">
     <!-- the logo and logo background container will need to have fixed positioning I think -->
-    <div class="logoBackground">This is the logo background element to make our logo more visible
-      <div class="logoImage">This div will contain the odin logo</div>
-      <div class="logoText">This div will contain "PP" or "Pickle Pals"</div>
+    <div class="logoBackground">
+      <div class="logoImage">
+      <img src="images/odin.png" alt="" id="odin"></div>
+      <div class="logoText"><h1>PP</h1></div>
     </div>
-  <div class="form container">This is the form container</div>
-    <div>This div will contain the PP description/pitch</div>
-    <div>This div will contain the exhortation</div>
+  </div>
+  <div class="formContainer">
+    <div>The Pickle Pals are an elite club of pals who like pickles and also being pals with people who like pickles</div>
+    <div>Become a Pal of the Pickle Pals Today!</div>
     <form action="">
-      <input type="text"></input>
-      <input type="text"></input>
-      <input type="email"></input>
-      <input type="tel"></<input>
-      <input type="password"></input>
-      <input type="password"></input>
+      <label for="firstName">First Name: </label>
+      <input type="text" id="firstName" placeholder="Peter"></input>
+      <label for="lastName">Last Name: </label>
+      <input type="text" id="lastName" placeholder="Piper"></input>
+      <label for="email">Email: </label>
+      <input type="email" id="email" placeholder="DavidBrine@fermentingheads.co.uk"></input>
+      <label for="telephoneNumber">Telephone Number: </label>
+      <input type="tel" id="telephoneNumber" placeholder="(206).742.5537"></<input>
+      <label for="password">Password: </label>
+      <input type="password" id="password"></input>
+      <label for="confirmation">Confirm Password: </label>
+      <input type="password" id="confirmation"></input>
     </form>
     <button>Create Account</button>
     <div>Already have an account? <a href="">Sign in!</a></div>
+  </div>
 </body>
 </html>

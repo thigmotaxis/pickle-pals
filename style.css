@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: gray;
+  height: 98vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 25vw;
+  background-color: white;
+}
+
+#picklePic {
+  width: 100%;
+  height: 100%;
+}
+
+.logoBackground {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+  opacity: 50%;
+  position: absolute;
+  top: 40vh;
+  height: 10vh;
+  width: 100%;
+}
+
+#odin {
+  width: 70px;
+  padding: 8px;
+}
+
+.logoText {
+  color: white;
+  padding: 8px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 55vw;
+  background-color: white;
+}
